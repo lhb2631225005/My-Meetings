@@ -1,0 +1,53 @@
+.item {
+  background-color: #fff;
+  border-left: 6px solid hsl(100, 77%, 44%);
+  border-radius: 4px;
+}
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.icon {
+  transition: all 0.5s;
+}
+.rotate {
+  transform: rotate(90deg);
+}
+
+.df {
+  display: flex;
+  align-items: center;
+}
+
+.divider {
+  height: 4em;
+  margin: 0 30px;
+}
+
+.name {
+  margin: 5px 0 10px;
+}
+.time {
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.meetings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ececec;
+  margin: 0 60px;
+  padding: 10px 0;
+}

@@ -1,0 +1,14 @@
+.App {
+  margin: 20px 200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.container p {
+  margin-bottom: 10px;
+}
+.collapse .ant-collapse-header {
+  padding: 0 !important; /* 用 !important 确保优先级（若 antd 内置样式优先级更高） */
+}
